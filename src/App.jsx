@@ -6,6 +6,7 @@ import Footer from './Component/footer'
 import Productdetail from './Component/productDetail'
 
 
+
 const App = () => {
   // product detail
   const [close, setClose] = useState(false)
@@ -46,6 +47,7 @@ const App = () => {
       <BrowserRouter>
         <Nav searchBtn={searchBtn} />
         <Rout product={product} setProduct={setProduct} detail={detail} view={view} close={close} setClose={setClose} cart={cart} setCart={setCart} addcart={addcart} />
+        
         <Footer />
       </BrowserRouter>
     </>

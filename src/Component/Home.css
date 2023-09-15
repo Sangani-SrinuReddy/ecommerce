@@ -258,23 +258,29 @@
 }
 
 .banner {
-    /* padding: 0px 30px; */
+    padding: 0px 30px;
     width: 100%;
+    background: #62a3df;
+
 }
 
 .banner .container {
     padding: 30px 40px;
-    background: #62a3df;
-    /* border-radius: 10px; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     margin: 0px;
-    width: 100%;
+    width: 100%; 
 }
 
 .banner .container .detail {
     margin-top: 13%;
     margin-left: 20px;
+}
+.banner .container  .img_box{
+    margin-right: -150px;
+}
+.banner .container  .img_box img{
+    width: 500px;
 }
 
 .banner .container .detail h4 {

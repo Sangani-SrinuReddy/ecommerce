@@ -4,7 +4,7 @@ const Homeproduct =
 
         {
             id:1,
-            title: "Apple iPhone 13 (128GB) - Blue",
+            title: "Apple iPhone 13 (128GB) - Blue Color",
             Cat:"Mobile",
             Price:'678',
             Img:"public/mobileImg.png"
@@ -26,7 +26,7 @@ const Homeproduct =
             
         },{
             id:4,
-            title: "OnePlus Y Series Y1 Black Tv",
+            title: "OnePlus Y Series Y1 Black Color - Tv ",
             Cat:"TV",
             Price:'527',
             Img:"public/tv.png"
@@ -60,6 +60,15 @@ const Homeproduct =
             Price:'428',
             Img:"public/homedia.png"
             
+        },
+        {
+            id:9,
+            title: "MI Power Bank 3i 20000mAh Lithium Polymer 18W Fast",
+            Cat:"Powerbank",
+            Price:'428',
+            Img:"public/powerbank.png"
+            
         }
+
     ]
 export default Homeproduct;

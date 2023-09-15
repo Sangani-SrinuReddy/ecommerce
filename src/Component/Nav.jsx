@@ -63,10 +63,9 @@ const Nav = ({searchBtn}) => {
                         </ul>
                     </div>
 
-                    {/* <div className="auth">
-                        <button><CiLogin /></button>
-                        <button><CiLogout /></button>
-                    </div> */}
+                    <div className="login">
+                        <Link to='/login'>Login</Link>
+                    </div>
                 </div>
             </div>
         </>
