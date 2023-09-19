@@ -124,7 +124,7 @@ const Home = ({ detail,view, close, setClose,addcart }) => {
                             <BiHeadphone />
                         </div>
                         <div className="detail">
-                            <h3>Customer Support</h3><p>Every Time Call Support</p>
+                            <h3>Customer Support</h3><p>Every Time Call </p>
                         </div>
                     </div>
                 </div>
