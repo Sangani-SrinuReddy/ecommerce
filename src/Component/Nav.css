@@ -39,9 +39,10 @@
 }
 
 .min_header .container .logo img {
-    width: 150px;
+    width: 150px;height:100px;
     background: none;
     outline: none;
+    margin-left: -50px;
 }
 
 .min_header .container .search_box {
@@ -67,7 +68,7 @@
 
 .min_header .container .icon {
     display: flex;
-    margin-right: 50px;
+    margin-right: 150px;
 }
 
 .min_header .container .icon .account {

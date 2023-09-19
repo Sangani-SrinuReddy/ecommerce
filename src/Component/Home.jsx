@@ -97,8 +97,8 @@ const Home = ({ detail,view, close, setClose,addcart }) => {
                             <FiTruck />
                         </div>
                         <div className="detail">
-                            <h3>Free Shipping Order</h3>
-                            <p>Order above<br />  $1000</p>
+                            <h3>Shopping Order</h3>
+                            <p>Order above $1000</p>
                         </div>
                     </div>
                     <div className="box">
